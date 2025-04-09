@@ -147,4 +147,4 @@ GPL-2.0-or-later. See LICENSE file for details.
 
 - Issues: GitHub Issue Tracker
 - Email: casianus@me.com
-- Documentation: https://docs.typo3.org/p/tpwd/hyphens/main/en-us/ 
+- Documentation: https://docs.typo3.org/p/ca/hyphens/main/en-us/ 
