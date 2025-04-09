@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+    <file source-language="en" datatype="plaintext" original="messages" date="2024-03-21T12:00:00Z" product-name="ca_hype_plugin">
+        <header/>
+        <body>
+            <trans-unit id="tx_hype_term">
+                <source>Hyphenation Term</source>
+            </trans-unit>
+            <trans-unit id="tx_hype_term.original_text">
+                <source>Original Text</source>
+            </trans-unit>
+            <trans-unit id="tx_hype_term.hyphenated_text">
+                <source>Hyphenated Text</source>
+            </trans-unit>
+            <trans-unit id="tx_hype_plugin_hyphenation.name">
+                <source>Hyphenation Plugin</source>
+            </trans-unit>
+            <trans-unit id="tx_hype_plugin_hyphenation.description">
+                <source>Plugin for managing and displaying hyphenated text</source>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

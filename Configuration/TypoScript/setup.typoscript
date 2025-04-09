@@ -1,0 +1,16 @@
+page {
+    includeCSS {
+        hyphens = EXT:ca_hype_plugin/Resources/Public/Css/hyphens.css
+    }
+
+    config {
+        # Aktiviere Silbentrennung
+        htmlTag_langKey = de
+        htmlTag_setParams = lang="de" class="no-js"
+
+        # Setze Dokumentsprache
+        language = de
+        locale_all = de_DE.UTF-8
+        sys_language_uid = 0
+    }
+}

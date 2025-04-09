@@ -1,0 +1,6 @@
+{
+    "name": "CAHyphens",
+    "label":"CA Hyphens",
+    "namespaceAlias": "ca",
+    "targetNamespace": "http://typo3.org/ns/CB/Hyphens/ViewHelpers"
+}

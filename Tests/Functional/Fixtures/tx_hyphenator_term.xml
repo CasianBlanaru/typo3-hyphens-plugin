@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dataset>
+    <tx_hyphens_term>
+        <uid>1</uid>
+        <pid>0</pid>
+        <from>Arbeiterunfallversicherungsgesetz</from>
+        <to>Arbeiter|unfall|versicherungs|gesetz</to>
+    </tx_hyphens_term>
+    <tx_hyphens_term>
+        <uid>2</uid>
+        <pid>0</pid>
+        <from>Entwicklungsumgebung</from>
+        <to>Entwicklungs|umgebung</to>
+    </tx_hyphens_term>
+</dataset>

@@ -1,0 +1,1 @@
+{"version":1,"defects":[],"times":{"CA\\HypePlugin\\Tests\\Unit\\Service\\HyphenatorServiceTest::hyphenateTextReturnsExpectedResult#compound word":0.001,"CA\\HypePlugin\\Tests\\Unit\\Service\\HyphenatorServiceTest::hyphenateTextReturnsExpectedResult#multiple words":0,"CA\\HypePlugin\\Tests\\Unit\\Service\\HyphenatorServiceTest::hyphenateTextReturnsExpectedResult#empty string":0}}

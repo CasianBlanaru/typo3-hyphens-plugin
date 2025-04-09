@@ -1,0 +1,85 @@
+{
+	"name": "casianblanaru/typo3-hyphens-plugin",
+	"type": "typo3-cms-extension",
+	"description": "TYPO3 Extension für automatische und manuelle Silbentrennung",
+	"keywords": ["TYPO3", "extension", "hyphenation", "silbentrennung"],
+	"homepage": "https://github.com/CasianBlanaru/typo3-hyphens-plugin",
+	"authors": [
+		{
+			"name": "Casian Blanaru",
+			"email": "cab@tpwd.de",
+			"homepage": "https://tpwd.de",
+			"role": "Developer"
+		}
+	],
+	"support": {
+		"email": "cab@tpwd.de",
+		"source": "https://github.com/tpwd/hyphens",
+		"docs": "https://docs.typo3.org/p/tpwd/hyphens/main/en-us/",
+		"issues": "https://github.com/tpwd/hyphens/issues"
+	},
+	"license": "GPL-2.0-or-later",
+	"require": {
+		"typo3/cms-core": "^12.4",
+		"php": "^8.1",
+		"org_heigl/hyphenator": "^3.1"
+	},
+	"require-dev": {
+		"typo3/testing-framework": "^8.0.0",
+		"phpunit/phpunit": "^11.0",
+		"friendsofphp/php-cs-fixer": "^3.0",
+		"phpstan/phpstan": "^1.0",
+		"phpspec/prophecy": "^1.17",
+		"phpspec/prophecy-phpunit": "^2.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"CasianBlanaru\\HyphensPlugin\\": "Classes/"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"CasianBlanaru\\HyphensPlugin\\Tests\\": "Tests/"
+		}
+	},
+	"replace": {
+		"tpwd/typo3-hyphens": "self.version"
+	},
+	"scripts": {
+		"post-autoload-dump": [
+			"TYPO3\\TestingFramework\\Composer\\ExtensionTestEnvironment::prepare"
+		],
+		"ci:php:cs": [
+			"php-cs-fixer fix --config .php-cs-fixer.dist.php -v --dry-run --using-cache no --diff"
+		],
+		"ci:php:stan": [
+			"phpstan analyse -c phpstan.neon"
+		],
+		"ci:tests:unit": [
+			"@putenv XDEBUG_MODE=coverage",
+			".Build/bin/phpunit -c Tests/Unit/UnitTests.xml --coverage-html .Build/coverage"
+		],
+		"ci:tests": [
+			"@ci:php:cs",
+			"@ci:php:stan",
+			"@ci:tests:unit"
+		],
+		"fix:php:cs": [
+			"php-cs-fixer fix --config .php-cs-fixer.dist.php"
+		]
+	},
+	"extra": {
+		"typo3/cms": {
+			"web-dir": ".Build/web",
+			"extension-key": "hyphens_plugin"
+		}
+	},
+	"config": {
+		"vendor-dir": ".Build/vendor",
+		"bin-dir": ".Build/bin",
+		"allow-plugins": {
+			"typo3/class-alias-loader": true,
+			"typo3/cms-composer-installers": true
+		}
+	}
+}

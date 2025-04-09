@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="124px" height="124px" viewBox="0 0 124 124" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <title>Hyphens Term</title>
+    <g fill="none" fill-rule="evenodd">
+        <!-- Hintergrund -->
+        <rect width="124" height="124" rx="15" fill="#27ae60"/>
+
+        <!-- Text-Symbol -->
+        <g transform="translate(25, 45)">
+            <!-- Text "Aa" -->
+            <text x="0" y="30" font-family="Arial" font-size="40" fill="#ffffff">Aa</text>
+
+            <!-- Bindestrich -->
+            <g transform="translate(50, 10)" fill="#ffffff">
+                <rect x="0" y="0" width="25" height="6" rx="2"/>
+            </g>
+        </g>
+
+        <!-- Unterer Text -->
+        <g transform="translate(20, 85)">
+            <text x="0" y="0" font-family="Arial" font-size="14" fill="#ffffff">TERM</text>
+        </g>
+    </g>
+</svg>

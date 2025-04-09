@@ -1,0 +1,21 @@
+includes:
+    - .Build/vendor/phpstan/phpstan/conf/bleedingEdge.neon
+
+parameters:
+    level: 5
+    paths:
+        - Classes
+        - Configuration
+        - Tests
+
+    excludePaths:
+        - .Build/*
+        - Build/*
+        - Documentation/*
+        - Resources/*
+
+    ignoreErrors:
+        - '#Constant TYPO3_MODE not found#'
+        - '#Constant TYPO3_CONF_VARS not found#'
+
+    reportUnmatchedIgnoredErrors: false

@@ -1,0 +1,23 @@
+# cat=basic/enable/10; type=options[Automatic Only=auto,Manual Only=manual,Both=both]; label=Hyphenation Mode:Select which hyphenation method to use
+mode = both
+
+# cat=basic/enable/20; type=string; label=Hyphen Character:The string to use as hyphen (e.g. &shy; / &#xAD; / \u{00AD}).
+hyphen = &#xAD;
+
+# cat=basic/enable/30; type=string; label=Default Locale:This parameter defines what dictionary to use by default for hyphenation.
+defaultLocale = de-DE
+
+# cat=advanced/enable/10; type=int+; label=Left Minimum:How many characters have to be left unhyphenated to the left of the word.
+leftMin = 2
+
+# cat=advanced/enable/20; type=int+; label=Right Minimum:How many characters have to be left unhyphenated to the right of the word.
+rightMin = 2
+
+# cat=advanced/enable/30; type=int+; label=Minimum Word Length:Words under the given length will not be hyphenated.
+wordMin = 6
+
+# cat=advanced/enable/40; type=options[0,1,2,3,4,5,6,7,8,9]; label=Quality:Hyphenation quality level (0-9, higher is better).
+quality = 9
+
+# cat=basic;type=string;label=Regex for evaluation of replacement field in backend – add further characters if needed
+backendEvaluationRegex = /[^a-zA-Z0-9_-| äöüÄÖÜß]/

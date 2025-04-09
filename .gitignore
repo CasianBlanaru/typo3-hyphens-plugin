@@ -1,0 +1,13 @@
+/.Build
+/.project
+/.settings
+/.buildpath
+/.vscode
+/.php_cs.cache
+/.php_cs-fixer.cache
+/.phpunit.cache
+/var/
+/vendor/
+/composer.lock
+/Documentation-GENERATED-temp
+/public

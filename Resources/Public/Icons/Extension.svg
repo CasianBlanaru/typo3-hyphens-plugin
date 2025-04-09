@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="124px" height="124px" viewBox="0 0 124 124" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <title>CB Hyphens</title>
+    <g fill="none" fill-rule="evenodd">
+        <!-- Hintergrund -->
+        <rect width="124" height="124" rx="15" fill="#2980b9"/>
+
+        <!-- Text-Symbol -->
+        <g transform="translate(20, 35)" fill="#ffffff">
+            <!-- Text-Linie 1 -->
+            <rect x="0" y="0" width="40" height="10" rx="2"/>
+            <!-- Bindestrich -->
+            <rect x="45" y="0" width="15" height="10" rx="2"/>
+            <!-- Text-Linie 2 -->
+            <rect x="65" y="0" width="30" height="10" rx="2"/>
+
+            <!-- Zweite Zeile -->
+            <rect x="10" y="25" width="35" height="10" rx="2"/>
+            <!-- Bindestrich -->
+            <rect x="50" y="25" width="15" height="10" rx="2"/>
+            <!-- Text-Linie 2 -->
+            <rect x="70" y="25" width="25" height="10" rx="2"/>
+
+            <!-- Dritte Zeile -->
+            <rect x="0" y="50" width="30" height="10" rx="2"/>
+            <!-- Bindestrich -->
+            <rect x="35" y="50" width="15" height="10" rx="2"/>
+            <!-- Text-Linie 2 -->
+            <rect x="55" y="50" width="45" height="10" rx="2"/>
+        </g>
+    </g>
+</svg>
