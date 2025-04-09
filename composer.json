@@ -1,22 +1,20 @@
 {
 	"name": "casianblanaru/typo3-hyphens-plugin",
 	"type": "typo3-cms-extension",
-	"description": "TYPO3 Extension für automatische und manuelle Silbentrennung",
-	"keywords": ["TYPO3", "extension", "hyphenation", "silbentrennung"],
+	"description": "TYPO3 Extension for automatic and manual hyphenation",
+	"keywords": ["TYPO3", "extension", "hyphenation"],
 	"homepage": "https://github.com/CasianBlanaru/typo3-hyphens-plugin",
 	"authors": [
 		{
 			"name": "Casian Blanaru",
 			"email": "casianus@me.com",
-			"homepage": "https://tpwd.de",
+			"homepage": "https://pixelcoda.de",
 			"role": "Developer"
 		}
 	],
 	"support": {
 		"email": "casianus@me.com",
-		"source": "https://github.com/tpwd/hyphens",
-		"docs": "https://docs.typo3.org/p/tpwd/hyphens/main/en-us/",
-		"issues": "https://github.com/tpwd/hyphens/issues"
+		"source": "https://github.com/CasianBlanaru/typo3-hyphens-plugin"
 	},
 	"license": "GPL-2.0-or-later",
 	"require": {
