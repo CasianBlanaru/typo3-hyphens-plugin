@@ -26,7 +26,7 @@ TYPO3 Hyphenation Plugin
    Casian Blanaru
 
 :Email:
-   cab@tpwd.de
+   casianus@me.com
 
 :License:
    This document is published under the Open Content License

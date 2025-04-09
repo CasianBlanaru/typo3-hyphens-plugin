@@ -146,5 +146,5 @@ GPL-2.0-or-later. See LICENSE file for details.
 ## Support
 
 - Issues: GitHub Issue Tracker
-- Email: cab@tpwd.de
+- Email: casianus@me.com
 - Documentation: https://docs.typo3.org/p/tpwd/hyphens/main/en-us/ 

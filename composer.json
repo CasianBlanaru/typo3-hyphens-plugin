@@ -7,13 +7,13 @@
 	"authors": [
 		{
 			"name": "Casian Blanaru",
-			"email": "cab@tpwd.de",
+			"email": "casianus@me.com",
 			"homepage": "https://tpwd.de",
 			"role": "Developer"
 		}
 	],
 	"support": {
-		"email": "cab@tpwd.de",
+		"email": "casianus@me.com",
 		"source": "https://github.com/tpwd/hyphens",
 		"docs": "https://docs.typo3.org/p/tpwd/hyphens/main/en-us/",
 		"issues": "https://github.com/tpwd/hyphens/issues"
